@@ -1,0 +1,35 @@
+.blogs-container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.blogs {
+    width: 70%;
+}
+
+.bookmark {
+    width: 30%;
+}
+.spent-time{
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spenttime-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #6047EC;
+}
+.bookmark-blogs-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #111111;
+}
+.bookmark-blogs-container{
+    background: rgba(17, 17, 17, 0.05);
+    padding: 10px;
+    margin-top: 20px;
+}
