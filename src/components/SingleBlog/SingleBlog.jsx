@@ -1,5 +1,5 @@
 import React from 'react';
-import './Singleblog.css'
+import './SingleBlog.css'
 const Singleblog = (props) => {
     const { id, authorname, title, cover, img, publishdate, readtime } = props.blog;
     return (
