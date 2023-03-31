@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "authorname": "Moibul Hasan",
+        "title": "How to get your first job as a self-taught programmer",
+        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
+        "readtime": "05",
+        "publishdate": "27/03/2023",
+        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+    },
+    {
+        "id": "2",
+        "authorname": "Moibul Hasan",
+        "title": "How to get your first job as a self-taught programmer",
+        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
+        "readtime": "10",
+        "publishdate": "27/03/2023",
+        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+    },
+    {
+        "id": "3",
+        "authorname": "Moibul Hasan",
+        "title": "How to get your first job as a self-taught programmer",
+        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
+        "readtime": "15",
+        "publishdate": "27/03/2023",
+        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+    },
+    {
+        "id": "4",
+        "authorname": "Moibul Hasan",
+        "title": "How to get your first job as a self-taught programmer",
+        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
+        "readtime": "20",
+        "publishdate": "27/03/2023",
+        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+    }
+]
