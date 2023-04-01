@@ -11,6 +11,7 @@
     background: rgba(96, 71, 236, 0.1)
 }
 .qa-title{
+    font-size: 40px;
     text-align: center;
     margin-top: 0px;
 }
@@ -25,5 +26,8 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    .qa-title{
+        font-size: 30px;
     }
 }

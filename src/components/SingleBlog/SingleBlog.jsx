@@ -2,7 +2,7 @@ import React from 'react';
 import './Singleblog.css'
 import bookmarkimg from '../../assets/bookmark.svg'
 const Singleblog = (props) => {
-    const { id, authorname, title, cover, img, publishdate, readtime } = props.blog;
+    const { id, authorname, title, cover, img, publishdate, readtime, hasha, hashb } = props.blog;
     const handleTimeSpent = props.handleTimeSpent;
     const handleBookmark = props.handleBookmark;
     return (
@@ -22,6 +22,7 @@ const Singleblog = (props) => {
             </div>
             <div className='singleblog-last'>
                 <h1 className='blog-title'>{title}</h1>
+                <p><span>{hasha}</span>  <span>{hashb}</span></p>
                 <button onClick={()=>handleTimeSpent(readtime)} className='mark-btn'>Mark as read</button>
                 {id<4?<Border></Border>:''}
             </div>
