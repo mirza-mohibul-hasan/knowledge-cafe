@@ -17,10 +17,18 @@ const Blogs = () => {
     }
     const [bookmarked, setBookmark] = useState([]);
     const handleBookmark = (blog) =>{
-        const newBookmark = [...bookmarked, blog]
-        setBookmark(newBookmark)
+        const exist = bookmarked.find( bm=> bm.id === blog.id)
+        // console.log(exist);
+        if(!exist){
+            const newBookmark = [...bookmarked, blog]
+            setBookmark(newBookmark)
+        }
+        else{
+            alert('Hello');
+        }
+        
     }
-    console.log(bookmarked)
+    // console.log(bookmarked)
     return (
         <div className='blogs-container'>
             <div className='blogs'>
@@ -34,7 +42,7 @@ const Blogs = () => {
                 </div>
                 <div className='bookmark-blogs-container'>
                     <h1 className='bookmark-blogs-title'>Bookmarked Blogs : {bookmarked.length}</h1>
-                    <Bookmark bookmarked = {bookmarked}></Bookmark>
+                    <Bookmark bookmarked = {bookmarked} key={bookmarked.id}></Bookmark>
                 </div>
             </div>
         </div>

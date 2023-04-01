@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bookmark.css'
 const Bookmark = ({bookmarked}) => {
-    console.log(bookmarked)
+    // console.log(bookmarked)
     return (
         <div>
             {
