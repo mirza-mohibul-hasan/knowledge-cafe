@@ -1,5 +1,6 @@
 import React from 'react';
 import './Singleblog.css'
+import bookmarkimg from '../../assets/bookmark.svg'
 const Singleblog = (props) => {
     // console.log(props)
     const { id, authorname, title, cover, img, publishdate, readtime } = props.blog;
@@ -16,7 +17,7 @@ const Singleblog = (props) => {
                     </div>
                 </div>
                 <div className='read-bm-container'>
-                    <p>{readtime} min read <button></button></p>
+                    <p>{readtime} min read <button><img src={bookmarkimg} alt="" /></button></p>
                 </div>
             </div>
             <div className='singleblog-last'>
