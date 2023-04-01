@@ -30,8 +30,9 @@
 }
 .bookmark-blogs-container{
     background: rgba(17, 17, 17, 0.05);
-    padding: 10px;
+    padding: 25px;
     margin-top: 20px;
+    border-radius: 8px;
 }
 /* Responsive for Mobile Device */
 @media screen and (max-width:576px) {

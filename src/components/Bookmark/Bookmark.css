@@ -1,7 +1,13 @@
 .bookmark-title{
     background-color: white;
-    margin: 2px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #FFFFFF;
+    border-radius: 8px;
 }
 @media screen and (max-width:576px) {
-    
+    .bookmark-title{
+        font-size: 15px;
+    }
 }

@@ -7,6 +7,7 @@ import Blogs from './components/Blogs/Blogs'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Extrablog from './components/Extrablog/Extrablog'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header></Header>
       <Blogs></Blogs>
       <ToastContainer></ToastContainer>
+      <Extrablog></Extrablog>
     </div>
   )
 }
