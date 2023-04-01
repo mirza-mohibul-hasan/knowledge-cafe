@@ -1,7 +1,9 @@
 import React from 'react';
-import './SingleBlog.css'
+import './Singleblog.css'
 const Singleblog = (props) => {
+    // console.log(props)
     const { id, authorname, title, cover, img, publishdate, readtime } = props.blog;
+    const handleTimeSpent = props.handleTimeSpent;
     return (
         <div className='singleblog-container'>
             <img className='cover-img' src={cover} alt="" />
@@ -14,12 +16,12 @@ const Singleblog = (props) => {
                     </div>
                 </div>
                 <div className='read-bm-container'>
-                    <p>{readtime} min read <span><button>BM</button></span></p>
+                    <p>{readtime} min read <button></button></p>
                 </div>
             </div>
             <div className='singleblog-last'>
                 <h1 className='blog-title'>{title}</h1>
-                <button className='mark-btn'>Mark as read</button>
+                <button onClick={()=>handleTimeSpent(readtime)} className='mark-btn'>Mark as read</button>
             </div>
         </div>
     );

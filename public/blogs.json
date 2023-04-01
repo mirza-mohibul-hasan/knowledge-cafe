@@ -1,37 +1,37 @@
 [
     {
         "id": "1",
-        "authorname": "Moibul Hasan",
-        "title": "How to get your first job as a self-taught programmer",
-        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
-        "readtime": "05",
+        "authorname": "Jhankar Mahbub",
+        "title": "How to became junior web developer in six month",
+        "cover": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "readtime": "20",
         "publishdate": "27/03/2023",
-        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+        "img": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/256/external-author-literature-flaticons-lineal-color-flat-icons-4.png"
     },
     {
         "id": "2",
         "authorname": "Moibul Hasan",
-        "title": "How to get your first job as a self-taught programmer",
-        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
-        "readtime": "10",
-        "publishdate": "27/03/2023",
-        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+        "title": "How to get started with programming",
+        "cover": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "readtime": "05",
+        "publishdate": "17/02/2023",
+        "img": "https://img.freepik.com/free-vector/hand-drawn-flat-design-poetry-illustration_23-2149298508.jpg?w=740&t=st=1680317826~exp=1680318426~hmac=264d71a8ebe057a7ea1ac276ea8d59e893219704f11377216e9844b5d0d61475"
     },
     {
         "id": "3",
-        "authorname": "Moibul Hasan",
-        "title": "How to get your first job as a self-taught programmer",
-        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
+        "authorname": "Samuel Harris Altman",
+        "title": "What is artificial intelligence?",
+        "cover": "https://img.freepik.com/free-vector/sphere-grid-wave-with-binary-code-ai-artificial-intelligence-logo-hand-machine-learning-concept_127544-855.jpg?w=1060&t=st=1680317965~exp=1680318565~hmac=f7a87215ffba7f6743d44cd2c34e1047a784950e0651397dfb82258627cfc242",
         "readtime": "15",
         "publishdate": "27/03/2023",
-        "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
+        "img": "https://i.insider.com/63d93b280a08ae0018a62b4f?width=1000&format=jpeg&auto=webp"
     },
     {
         "id": "4",
-        "authorname": "Moibul Hasan",
-        "title": "How to get your first job as a self-taught programmer",
-        "cover": "https://img.freepik.com/free-vector/hiring-concept-illustration_114360-5839.jpg?w=740&t=st=1680246277~exp=1680246877~hmac=be67e04a1d12629def81f0b81df04f39bb492d2ba6667b7b66a3d1565301d123",
-        "readtime": "20",
+        "authorname": "Modon Kola",
+        "title": "How to utilise time",
+        "cover": "https://img.freepik.com/free-vector/flat-time-management-concept_52683-63897.jpg?w=996&t=st=1680318238~exp=1680318838~hmac=ae5b5bf23656cf08d0592e72000f3255bd264c9a8dbf84a634c5c98e21efb775",
+        "readtime": "10",
         "publishdate": "27/03/2023",
         "img": "https://img.freepik.com/free-photo/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-content_176420-15902.jpg?w=996&t=st=1680251857~exp=1680252457~hmac=ff81b977b00f5f59078215f1a57aef2a7437cdbe668f57a1d41eba127f81e8de"
     }
