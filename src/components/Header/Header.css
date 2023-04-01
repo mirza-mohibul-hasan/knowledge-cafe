@@ -15,3 +15,17 @@
 /* #hr-line{
     border: 1px solid rgba(17, 17, 17, 0.15);
 } */
+@media screen and (max-width:576px) {
+    #nav-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    #nav-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .header-container{
+        margin: 0px 5px;
+    }
+}

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Blogs.css'
 import Singleblog from '../Singleblog/Singleblog';
 import Bookmark from '../Bookmark/Bookmark';
+
+import { ToastContainer, toast } from 'react-toastify';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
@@ -24,7 +26,16 @@ const Blogs = () => {
             setBookmark(newBookmark)
         }
         else{
-            alert('Hello');
+            toast.error('You Have Already Bookmarked This Blog', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                });
         }
         
     }

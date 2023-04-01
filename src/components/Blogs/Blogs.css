@@ -33,3 +33,17 @@
     padding: 10px;
     margin-top: 20px;
 }
+/* Responsive for Mobile Device */
+@media screen and (max-width:576px) {
+    .blogs-container{
+        flex-direction: column;
+    }
+    .blogs {
+        width: 100%;
+    }
+    
+    .bookmark {
+        width: 100%;
+    }
+}
+
