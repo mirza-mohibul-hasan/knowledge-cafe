@@ -30,6 +30,10 @@
     font-size: 20px;
     text-decoration-line: underline;
     color: #6047EC;
+    background-color: white;
+}
+.bookmark-btn{
+    background-color: white;
 }
 
 .blog-title {
