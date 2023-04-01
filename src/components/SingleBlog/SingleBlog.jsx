@@ -5,6 +5,7 @@ const Singleblog = (props) => {
     // console.log(props)
     const { id, authorname, title, cover, img, publishdate, readtime } = props.blog;
     const handleTimeSpent = props.handleTimeSpent;
+    const handleBookmark = props.handleBookmark;
     return (
         <div className='singleblog-container'>
             <img className='cover-img' src={cover} alt="" />
@@ -17,7 +18,7 @@ const Singleblog = (props) => {
                     </div>
                 </div>
                 <div className='read-bm-container'>
-                    <p>{readtime} min read <button><img src={bookmarkimg} alt="" /></button></p>
+                    <p>{readtime} min read <button onClick={()=>handleBookmark(props.blog)}><img src={bookmarkimg} alt="" /></button></p>
                 </div>
             </div>
             <div className='singleblog-last'>

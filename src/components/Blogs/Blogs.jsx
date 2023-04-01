@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Blogs.css'
 import Singleblog from '../Singleblog/Singleblog';
+import Bookmark from '../Bookmark/Bookmark';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
@@ -14,11 +15,17 @@ const Blogs = () => {
         const newTime = spenttime + parseFloat(readtime);
         setSpentTime(newTime)
     }
+    const [bookmarked, setBookmark] = useState([]);
+    const handleBookmark = (blog) =>{
+        const newBookmark = [...bookmarked, blog]
+        setBookmark(newBookmark)
+    }
+    console.log(bookmarked)
     return (
         <div className='blogs-container'>
             <div className='blogs'>
                 {
-                    blogs.map(blog => <Singleblog blog = {blog} key={blog.id} handleTimeSpent={handleTimeSpent}></Singleblog>)
+                    blogs.map(blog => <Singleblog blog = {blog} key={blog.id} handleTimeSpent={handleTimeSpent} handleBookmark ={handleBookmark}></Singleblog>)
                 }
             </div>
             <div className='bookmark'>
@@ -26,7 +33,8 @@ const Blogs = () => {
                     <h1 className='spenttime-title'>Spent time on read : {spenttime} min</h1>
                 </div>
                 <div className='bookmark-blogs-container'>
-                    <h1 className='bookmark-blogs-title'>Bookmarked Blogs :</h1>
+                    <h1 className='bookmark-blogs-title'>Bookmarked Blogs : {bookmarked.length}</h1>
+                    <Bookmark bookmarked = {bookmarked}></Bookmark>
                 </div>
             </div>
         </div>
