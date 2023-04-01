@@ -2,7 +2,7 @@
     {
         "id": "1",
         "authorname": "Jhankar Mahbub",
-        "title": "How to became junior web developer in six month",
+        "title": "How to became junior web developer in six months?",
         "cover": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "readtime": "20",
         "publishdate": "27 March 2023",
@@ -11,7 +11,7 @@
     {
         "id": "2",
         "authorname": "Moibul Hasan",
-        "title": "How to get started with programming",
+        "title": "How to get started with programming?",
         "cover": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "readtime": "05",
         "publishdate": "17 February 2023",
@@ -19,7 +19,7 @@
     },
     {
         "id": "3",
-        "authorname": "Samuel Harris Altman",
+        "authorname": "Samuel Altman",
         "title": "What is artificial intelligence?",
         "cover": "https://img.freepik.com/free-vector/sphere-grid-wave-with-binary-code-ai-artificial-intelligence-logo-hand-machine-learning-concept_127544-855.jpg?w=1060&t=st=1680317965~exp=1680318565~hmac=f7a87215ffba7f6743d44cd2c34e1047a784950e0651397dfb82258627cfc242",
         "readtime": "15",
@@ -29,7 +29,7 @@
     {
         "id": "4",
         "authorname": "Modon Kola",
-        "title": "How to utilise time",
+        "title": "Why is time management important?",
         "cover": "https://img.freepik.com/free-vector/flat-time-management-concept_52683-63897.jpg?w=996&t=st=1680318238~exp=1680318838~hmac=ae5b5bf23656cf08d0592e72000f3255bd264c9a8dbf84a634c5c98e21efb775",
         "readtime": "10",
         "publishdate": "13 August 2023",
